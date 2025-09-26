@@ -1,0 +1,67 @@
+#page-heading {
+  text-align: center;
+  color: darkblue;
+}
+
+table {
+  width: 70%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+th {
+  background: darkblue;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background: #f0f0f0;
+}
+
+.highlight-row {
+  background: yellow;
+}
+
+#form-heading {
+  text-align: center;
+  margin-top: 30px;
+  color: darkblue;
+}
+
+.feedback-form {
+  width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+}
+
+.feedback-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.feedback-form button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  background: darkblue;
+  color: white;
+  border: none;
+}
